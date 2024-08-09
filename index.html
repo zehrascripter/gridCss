@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+    <style>
+        body{
+        font-family: "Calistoga", serif;
+        font-weight: 50;
+        font-style: normal;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 95%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    color: rgb(65, 65, 126);
+    font-size: 50px;
+}
+
+#main-div{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    align-items: center;
+}
+
+.subdiv-1{
+    border: 5px solid rgb(118, 118, 171);
+    height: 600px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 20px;
+}
+
+.one{
+    background-color: rgb(49, 49, 88);
+    height: 70px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.two{
+    background-color: rgb(49, 49, 88);
+    height: auto;
+    width: 200px;
+    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+.three{
+    background-color: rgb(49, 49, 88);
+    height: 100px;
+    width: 200px;
+}
+
+.four{
+    background-color: rgb(49, 49, 88);
+    height: 100px;
+    width: auto;
+
+}
+
+.five{
+    background-color: rgb(49, 49, 88);
+    height: 150px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.six{
+    background-color: rgb(49, 49, 88);
+    height: 45px;
+    width: auto;
+    grid-column: 1/3;
+}
+.subdiv-2{
+    border: 5px solid rgb(119, 189, 160);
+    height: 600px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 20px;
+}
+
+.seven{
+    background-color: rgb(232, 127, 82);
+    height: 70px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.eight{
+    background-color: rgb(232, 127, 82);
+    height: auto;
+    width: 200px;
+    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+.nine{
+    background-color: rgb(232, 127, 82);
+    height: 100px;
+    width: 200px;
+}
+
+.ten{
+    background-color:rgb(232, 127, 82);
+    height: 100px;
+    width: auto;
+
+}
+
+.eleven{
+    background-color: rgb(232, 127, 82);
+    height: 150px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.twelve{
+    background-color: rgb(232, 127, 82);
+    height: 45px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.subdiv-3{
+    border: 5px solid rgb(189, 106, 106);
+    height: 600px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 20px;
+}
+
+.thirteen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: rgb(49, 49, 88);
+    height: 40px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.fourteen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgb(49, 49, 88);
+    height: auto;
+    width: 160px;
+    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+.fifteen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgb(49, 49, 88);
+    height: 55px;
+    width: 160px;
+}
+
+.sixteen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: rgb(49, 49, 88);
+    height: 55px;
+    width: auto;
+
+}
+
+.seventeen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px;
+    background-color: rgb(49, 49, 88);
+    height: 50px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.eighteen{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgb(49, 49, 88);
+    height: 25px;
+    width: auto;
+    grid-column: 1/3;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Template</h1>
+        <h1>Flexbox</h1>
+        <h1>Grid</h1>
+    </header>    
+    <footer id="main-div">
+        <div class="subdiv-1">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+        </div>
+        <div class="subdiv-2">
+            <div class="seven"></div>
+            <div class="eight"></div>
+            <div class="nine"></div>
+            <div class="ten"></div>
+            <div class="eleven"></div>
+            <div class="twelve"></div>
+        </div>
+        <div class="subdiv-3">
+            <div class="thirteen">Header</div>
+            <div class="fourteen">Artical</div>
+            <div class="fifteen">Text 1</div>
+            <div class="sixteen">Text 2</div>
+            <div class="seventeen">Main</div>
+            <div class="eighteen">Footer</div>
+        </div>
+    </footer>
+</body>
+</html>
